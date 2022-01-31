@@ -16,6 +16,8 @@
 		8919F43A27A5DCC600162719 /* testAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8919F43927A5DCC600162719 /* testAppTests.swift */; };
 		8919F44427A5DCC600162719 /* testAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8919F44327A5DCC600162719 /* testAppUITests.swift */; };
 		8919F44627A5DCC600162719 /* testAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8919F44527A5DCC600162719 /* testAppUITestsLaunchTests.swift */; };
+		8927E0B427A8398300060702 /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8927E0B327A8398200060702 /* SwitchViewController.swift */; };
+		893CC97127A5EB3C00A24CB8 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893CC97027A5EB3C00A24CB8 /* JSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		8919F43F27A5DCC600162719 /* testAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8919F44327A5DCC600162719 /* testAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testAppUITests.swift; sourceTree = "<group>"; };
 		8919F44527A5DCC600162719 /* testAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8927E0B327A8398200060702 /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
+		893CC97027A5EB3C00A24CB8 /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				8919F42227A5DCC500162719 /* AppDelegate.swift */,
 				8919F42427A5DCC500162719 /* SceneDelegate.swift */,
 				8919F42627A5DCC500162719 /* ViewController.swift */,
+				8927E0B327A8398200060702 /* SwitchViewController.swift */,
+				893CC97027A5EB3C00A24CB8 /* JSON.swift */,
 				8919F42827A5DCC500162719 /* Main.storyboard */,
 				8919F42B27A5DCC600162719 /* Assets.xcassets */,
 				8919F42D27A5DCC600162719 /* LaunchScreen.storyboard */,
@@ -259,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8919F42727A5DCC500162719 /* ViewController.swift in Sources */,
+				893CC97127A5EB3C00A24CB8 /* JSON.swift in Sources */,
+				8927E0B427A8398300060702 /* SwitchViewController.swift in Sources */,
 				8919F42327A5DCC500162719 /* AppDelegate.swift in Sources */,
 				8919F42527A5DCC500162719 /* SceneDelegate.swift in Sources */,
 			);
@@ -452,7 +460,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-111.testApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1111.testApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -480,7 +488,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-111.testApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1111.testApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
